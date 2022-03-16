@@ -21,7 +21,7 @@ echo root:rootpass | chpasswd
 
 
 # Main Pacman download - base, base-devel, linux, linux-firmware, nano, btrfs-progs are installed earlier
-pacman -S --nonconfirm alacritty alsa-utils conky cups dialog dosfstools efibootmgr firefox flameshot grub grub-btrfs libreoffice-still lightdm lightdm-gtk-greeter linux-headers mtools network-manager-applet networkmanager os-prober pulseaudio pulsemixer reflector unzip gvim xdg-user-dirs xfce4 xfce4-pulseaudio-plugin xorg xorg-xinit zip adobe-source-han-sans-cn-fonts adobe-source-han-sans-jp-fonts adobe-source-han-serif-cn-fonts adobe-source-han-serif-jp-fonts fcitx5-chinese-addons fcitx5-gtk fcitx5-mozc libreoffice-still-zh-cn ntfs-3g 
+pacman -S --noconfirm alacritty alsa-utils conky cups dialog dosfstools efibootmgr firefox flameshot grub grub-btrfs libreoffice-still lightdm lightdm-gtk-greeter linux-headers mtools network-manager-applet networkmanager os-prober pulseaudio pulsemixer reflector unzip gvim xdg-user-dirs xfce4 xfce4-pulseaudio-plugin xorg xorg-xinit zip adobe-source-han-sans-cn-fonts adobe-source-han-sans-jp-fonts adobe-source-han-serif-cn-fonts adobe-source-han-serif-jp-fonts fcitx5-chinese-addons fcitx5-gtk fcitx5-mozc libreoffice-still-zh-cn ntfs-3g 
 # pacman -S --noconfirm xf86-video-amdgpu
 # pacman -S --noconfirm nvidia nvidia-utils nvidia-settings
 
